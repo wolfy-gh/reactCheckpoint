@@ -34,7 +34,7 @@ function App() {
             <Form.Row>
               <Form.Group as={Col} >
                 <Form.Label>Email</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" />
+                <Form.Control type="email" placeholder="Email" />
               </Form.Group>
               <Form.Group as={Col} >
                 <Form.Label>Password</Form.Label>
@@ -52,11 +52,11 @@ function App() {
             <Form.Row>
               <Form.Group as={Col} >
                 <Form.Label>City</Form.Label>
-                <Form.Control />
+                <Form.Control placeholder="City " />
               </Form.Group>
               <Form.Group as={Col} >
-                <Form.Label>State</Form.Label>
-                <Form.Control as="select" defaultValue="Choose...">
+                <Form.Label>Country</Form.Label>
+                <Form.Control as="select" defaultValue="Country">
                   <option>Choose...</option>
                   <option>Tunisia</option>
                   <option>Morroco</option>
@@ -66,7 +66,7 @@ function App() {
               </Form.Group>
               <Form.Group >
                 <Form.Label>Zip</Form.Label>
-                <Form.Control />
+                <Form.Control placeholder="Zip Code"/>
               </Form.Group>
             </Form.Row>
             <hr></hr>
